@@ -1,7 +1,13 @@
+#include <cmath>
 #include <iostream>
 
 int main() {
-    std::cout << "Hello JHONY!" << std::endl;
+    int file_size; //Snake Case
+    int FileSize;  // Pascal Case
+    int fileSize; // Camel Case
+    int iFileSize; // Hungarian Notation
+    return 0;
+
 
     return 0;
 }
