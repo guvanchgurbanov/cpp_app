@@ -1,11 +1,13 @@
-#include <cmath>
 #include <iostream>
 
+using namespace std;
+
 int main() {
-    int x=10;
-    int y=3;
-    int z= x+y;
-    std::cout<< z;
+    int a=1;
+    int b=2;
+
+      cout<<b;
+
     return 0;
 
 
