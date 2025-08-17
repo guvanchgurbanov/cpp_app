@@ -1,10 +1,20 @@
 #include <iostream>
-
+using namespace std;
 int main() {
-    int x=10 ;
-    int y = 3;
-    int z = x / y;
-    std::cout<< z;
+
+    double sales =95000;
+    cout <<"Sales:$" <<sales<< endl;
+
+    const double stateTaxRate =.04;
+    double stateTax=sales * stateTaxRate;
+    cout<<"State Tax:$"<<stateTax<<endl;
+
+    double countyTaxRate =.02;
+    double countytax=sales * countyTaxRate;
+    cout<<"County Tax:$"<<countytax<<endl;
+
+    double totalTax= stateTax+ countytax;
+    cout<<"Total Tax:$"<<totalTax;
 
     return 0;
 }
