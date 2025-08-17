@@ -1,15 +1,10 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
-    int a=1;
-    int b=3;
-    int temp=a;
-    a=b;
-    b=temp;
-
-      std::cout<<a;
+    int x=10 ;
+    int y = 3;
+    int z = x / y;
+    std::cout<< z;
 
     return 0;
 }
