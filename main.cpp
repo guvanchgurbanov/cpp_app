@@ -4,12 +4,12 @@ using namespace std;
 
 int main() {
     int a=1;
-    int b=2;
+    int b=3;
+    int temp=a;
+    a=b;
+    b=temp;
 
-      cout<<b;
-
-    return 0;
-
+      std::cout<<a;
 
     return 0;
 }
