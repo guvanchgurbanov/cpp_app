@@ -3,10 +3,15 @@
 
 using namespace std;
 int main() {
-    long elapesedScenonds= time(0); //Jan 1 1970
-    srand (6);
-    int number= rand();
-    cout << elapesedScenonds;
+    short minValue = 1;
+    short maxValue = 6;
+
+    srand(time(0));
+
+    short first = rand() % (maxValue - minValue + minValue);
+    short second = rand() % (maxValue - minValue + minValue);
+
+    cout << first << ", " << second << endl;
 
     return 0;
 }
