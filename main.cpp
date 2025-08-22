@@ -1,10 +1,14 @@
 #include <iostream>
 
+
 using namespace std;
 int main() {
-
-    int number= 1000000;
-    short another=number;
-    cout<<another;
+    int a = 12;
+    short b = 5;
+    cout << a << '+' << b << '=' << a+b << endl;
+    cout << a << '-' << b << '=' << a-b<< endl;
+    cout << a << '/' << b << '=' << a/b<< endl;
+    cout << a << '*' << b << '=' << a*b << endl;
+    cout << a << '%' << b << '=' << a%b << endl;
     return 0;
 }
