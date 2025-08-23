@@ -3,14 +3,12 @@
 using namespace std;
 
 int main() {
-    int x ;
-    cout << "Enter the number: ";
-    cin  >> x;
-
-    int z = x % 10;
-    std::cout  << "Last digit: " << z << endl ;
-
+    int N; // cm
+    cin>>N;
+    double meter = N/100.0;// meter change
+    cout<<meter<<endl;
 
 
     return 0;
+
 }
