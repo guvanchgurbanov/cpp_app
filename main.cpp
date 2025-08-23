@@ -3,10 +3,13 @@
 using namespace std;
 
 int main() {
-    string  name;
-    cout << " Enter the name: ";
-    cin >> name;
-    cout << " Salam " << name << endl;
+    int x ;
+    cout << "Enter the number: ";
+    cin  >> x;
+
+    int z = x % 10;
+    std::cout  << "Last digit: " << z << endl ;
+
 
 
     return 0;
