@@ -3,12 +3,10 @@
 
 using namespace std;
 int main() {
-    int a = 12;
-    short b = 5;
-    cout << a << '+' << b << '=' << a+b << endl;
-    cout << a << '-' << b << '=' << a-b<< endl;
-    cout << a << '/' << b << '=' << a/b<< endl;
-    cout << a << '*' << b << '=' << a*b << endl;
-    cout << a << '%' << b << '=' << a%b << endl;
+
+    int width = 7;
+    int length= 8;
+    int height= 6;
+    cout << "volume = "  <<  width*length*height  << " meter cube " <<endl;
     return 0;
 }
