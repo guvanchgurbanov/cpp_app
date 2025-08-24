@@ -3,10 +3,12 @@
 using namespace std;
 
 int main() {
-    int N; // cm
-    cin>>N;
-    double meter = N/100.0;// meter change
-    cout<<meter<<endl;
+    int a ;
+    cout << "Enter the Number << ;
+    cin >> a;
+    int
+
+    cout <<  "  <<endl;
 
 
     return 0;
