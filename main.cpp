@@ -3,8 +3,10 @@
 using namespace std;
 
 int main() {
-    char ch = 'b';
-    cout << ch;
+    string name;
+    cout<<name<< " Enter your name:";
+    cin>> name;
+    cout<< " Hi " << name;
 
     return 0;
 
