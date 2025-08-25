@@ -3,9 +3,8 @@
 using namespace std;
 
 int main() {
-    bool isNewUser=false;
-    cout<< noboolalpha <<isNewUser;
-
+    char ch = 'b';
+    cout << ch;
 
     return 0;
 
