@@ -3,12 +3,8 @@
 using namespace std;
 
 int main() {
-    int a ;
-    cout << "Enter the Number << ;
-    cin >> a;
-    int
-
-    cout <<  "  <<endl;
+    bool isNewUser=false;
+    cout<< noboolalpha <<isNewUser;
 
 
     return 0;
