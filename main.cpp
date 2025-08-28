@@ -3,8 +3,11 @@
 using namespace std;
 
 int main() {
-    int numbers[5] = { 10,  20 };
-    cout << numbers[0]; // size-1
+    int x = 1;
+    double y = 2.2;
+    double z = x + y;
+    cout << z;
+
 
     return 0;
 
