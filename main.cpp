@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    int x = 1;
-    double y = 2.0;
-    int z = x + static_cast <int> (y);
-    cout << z;
+    int x=10;
+    double y= 5;
+    bool result = x == y ;
+    cout << boolalpha << result;
 
     return 0;
 
