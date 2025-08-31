@@ -3,13 +3,14 @@
 using namespace std;
 
 int main() {
-    int n {};
-    cin >> n;
+    int a {};
+    cin >> a;
 
-    int birinjiSifr = n / 10;
-    int sonkySifr = n % 10;
+    int birinjiSifr = a / 100;
+    int ortaSifr = ( a / 10) % 10;
+    int sonkySifr = a % 10;
 
-    int sifrlerinJemi = birinjiSifr + sonkySifr;
+    int sifrlerinJemi = birinjiSifr + sonkySifr + ortaSifr;
     cout << sifrlerinJemi;
 
     return 0;
