@@ -1,18 +1,15 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
 int main() {
-    int x {};
-    cin >> x;
+    srand (time(0));
+    short first = (rand() % 6) + 1;
+    short second = (rand() % 6) + 1;
 
-    int birinjiSifr = x / 1000;
-    int ikinjiSifr = ( x / 100) %10;
-    int ucunjiSifir = (x / 10)%10;
-    int sonkySifr = x % 10;
-
-    int sifrlerinJemi = birinjiSifr + ikinjiSifr + ucunjiSifir + sonkySifr;
-    cout << sifrlerinJemi;
+    cout <<first << " , " << second;
 
     return 0;
 
