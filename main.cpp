@@ -3,9 +3,14 @@
 using namespace std;
 
 int main() {
-    int age = 23;
-    bool isEligible = age > 18;
-    cout << boolalpha <<isEligible;
+    int n {};
+    cin >> n;
+
+    int birinjiSifr = n / 10;
+    int sonkySifr = n % 10;
+
+    int sifrlerinJemi = birinjiSifr + sonkySifr;
+    cout << sifrlerinJemi;
 
     return 0;
 
