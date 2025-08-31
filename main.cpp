@@ -3,10 +3,9 @@
 using namespace std;
 
 int main() {
-    char first = 'a';
-    char second = 'A';
-    bool result = first == second;
-    cout <<result;
+    int age = 23;
+    bool isEligible = age > 18;
+    cout << boolalpha <<isEligible;
 
     return 0;
 
