@@ -3,15 +3,16 @@
 using namespace std;
 
 int main() {
-    int a {};
-    cin >> a;
+    int x {};
+    cin >> x;
 
-    int birinjiSifr = a / 1000;
-    int ikinjiSifr = ( a / 100) % 1000;
-    int ucunjiSifir = (a /10) %100;
-    int sonkySifr = a % 10;
+    int birinjiSifr = x / 10000;
+    int ikinjiSifr = ( x / 1000) % 10;
+    int ucunjiSifir = (x / 100)%10;
+    int dordinjiSifir = (x / 10)%10;
+    int sonkySifr = x % 10;
 
-    int sifrlerinJemi = birinjiSifr + ikinjiSifr + ucunjiSifir+ sonkySifr;
+    int sifrlerinJemi = birinjiSifr + ikinjiSifr + ucunjiSifir+dordinjiSifir+ sonkySifr;
     cout << sifrlerinJemi;
 
     return 0;
