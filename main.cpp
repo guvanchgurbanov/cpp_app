@@ -1,16 +1,11 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 
 using namespace std;
-
 int main() {
-    srand (time(0));
-    short first = (rand() % 6) + 1;
-    short second = (rand() % 6) + 1;
-
-    cout <<first << " , " << second;
-
+    int  temperature = 50;
+    if (temperature < 60 ) {
+        cout << " cold ";
+        cout << " wear warm clothes ";
+    }
     return 0;
-
 }
