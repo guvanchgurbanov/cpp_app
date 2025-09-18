@@ -1,4 +1,6 @@
- #include <iostream>
+//
+// Created by Guga on 18-Sep-25.
+// #include <iostream>
 
 using namespace std;
 int main() {
@@ -18,15 +20,15 @@ int main() {
             break;
 
         case 2:
-             guninsany = 28;
-             break;
+            guninsany = 28;
+            break;
 
         default:
-             cout << "Yalnysh !! ";
+            cout << "Yalnysh !! ";
 
     }
 
-           cout << guninsany << " Gun bar "<< endl;
+    cout << guninsany << " Gun bar "<< endl;
 
     return 0 ;
 }
