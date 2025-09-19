@@ -2,31 +2,51 @@
 
 using namespace std;
 int main() {
-    int ay ;
-    cout << "1-12 aralykda san girzir:";
-    cin >> ay ;
+    int b;
+    cout << "1 destimetr , 2-Km, 3-M , 4- Mm ,5-cm  Aralykda sangirzir:";
+    cin >> b;
 
-    int guninsany ;
+    double a;
+    cout << "sangiriz" ;
+    cin >>a;
 
-    switch (ay) {
-        case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-            guninsany = 31 ;
-            break;
+    double Jogaby;
 
-        case 4: case 6: case 9: case 11:
-            guninsany = 30;
+
+    if ( a < 1 || 5 < a) {
+        cout << "Nadogry girish";
+        return 1;
+    }
+    int a ;
+    cout << " Sangirzir ";
+    cin >> a;
+
+
+    int Jogaby;
+
+    switch (b) {
+        case 1:
+            Jogaby = b * 0.1 ;
             break;
 
         case 2:
-             guninsany = 28;
-             break;
+            Jogaby = b * 1000;
+            break;
 
-        default:
-             cout << "Yalnysh !! ";
+        case 3:
+            Jogaby = b * 3;
+            break;
 
+        case 4:
+            Jogaby = b * 4;
+            break;
+
+        case 5:
+            Jogaby= b * 5;
+            break;
     }
 
-           cout << guninsany << " Gun bar "<< endl;
+    cout << "Jogaby" << Jogaby ;
 
     return 0 ;
 }
