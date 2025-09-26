@@ -2,18 +2,18 @@
 
 using namespace std;
 int main() {
-    int a;
-    cout << "First number enter:";
-    cin >> a;
+    int g;
+    cout << "Enter three whole number:";
+    cin >> g;
 
-    int b;
-    cout << "Second number enter:";
-    cin >>b;
+    if ( g > 0 ) {
+        cout <<  << endl;
 
-    if ( a == b) {
-        cout << "0" << endl;
-    }else{
-        cout<< a+1 << endl << b+1;
+    }else if (g == 0){
+        cout << "Answer: 10" << endl;
+
+    }else {
+        cout << g - 2 << endl;
 }
 
     return 0 ;
