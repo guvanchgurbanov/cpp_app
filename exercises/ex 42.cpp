@@ -1,4 +1,6 @@
- #include <iostream>
+//
+// Created by Guga on 26-Sep-25.
+// #include <iostream>
 
 using namespace std;
 int main() {
@@ -11,18 +13,15 @@ int main() {
     cin >> c;
 
     int positiveCount = 0;
-    int negativeCount = 0;
 
     if ( a > 0 ) {
         positiveCount++;
-    }else if ( a < 0){
-        negativeCount--;
-
     }if ( b > 0 ){
         positiveCount++;
     }if ( c > 0 ){
         positiveCount++;
     }
+
     cout << positiveCount;
 
     return 0 ;
