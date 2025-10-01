@@ -2,12 +2,21 @@
     using namespace std;
     int main() {
 
-        double a,b;
-        cin >> a >> b;
+        int a,b;
+        cout << "1nji sany giriz: " ;
+        cin >> a;
+        cout << "2nji sany giriz: ";
+        cin >> b;
+
 
         if ( a > b ) {
-            cout <<"HighNumber:"<<a<< endl
+            int temp = a;
+            a = b;
+            b = temp;
         }
+
+        cout << a << ", " << b << endl;
+
         return 0 ;
 
 }
