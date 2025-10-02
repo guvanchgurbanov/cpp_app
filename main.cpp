@@ -8,14 +8,15 @@
         cout << "2nji sany giriz: ";
         cin >> b;
 
+        max = a;
 
-        if ( a > b ) {
-            int temp = a;
-            a = b;
-            b = temp;
+        if (b > a) {
+            b = max;
+        } else {
+            a = 0;
+            b = 0;
         }
-
-        cout << a << ", " << b << endl;
+        cout << a << " , " << b << endl;
 
         return 0 ;
 
