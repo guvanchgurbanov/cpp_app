@@ -1,23 +1,26 @@
     #include <iostream>
-    using namespace std;
-    int main() {
 
-        int a,b;
-        cout << "1nji sany giriz: " ;
+    using namespace std;
+
+    int main() {
+        int a, b, c;
+
+        cout << "1nji sany giriz: ";
         cin >> a;
         cout << "2nji sany giriz: ";
         cin >> b;
+        cout << "3nji sany giriz: ";
+        cin >> c;
 
-        max = a;
+        int  min = a ;
 
-        if (b > a) {
-            b = max;
-        } else {
-            a = 0;
-            b = 0;
+        if ( min > b ) {
+            min = b;
+        }if ( min > c) {
+            min = c;
         }
-        cout << a << " , " << b << endl;
 
-        return 0 ;
+        cout << min << endl;
 
-}
+        return 0;
+    }
