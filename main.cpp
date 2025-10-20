@@ -12,15 +12,14 @@
         cout << "3nji sany giriz: ";
         cin >> c;
 
-        int  min = a ;
+        int kici = a;
 
-        if ( min > b ) {
-            min = b;
-        }if ( min > c) {
-            min = c;
+        if(kici > b) {
+            kici = b;
+        }if (kici > c) {
+            kici = c;
         }
-
-        cout << min << endl;
+        cout << "In kici san: "<< kici;
 
         return 0;
     }
