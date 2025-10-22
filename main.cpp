@@ -12,14 +12,32 @@
         cout << "3nji sany giriz: ";
         cin >> c;
 
-        int kici = a;
-
-        if(kici > b) {
-            kici = b;
-        }if (kici > c) {
-            kici = c;
+        int min = a;
+        if (b < min) {
+            min = b;
         }
-        cout << "In kici san: "<< kici;
+        if (c < min) {
+            min = c;
+        }
+
+        int max = a;
+        if (b > max) {
+            max = b;
+        }
+        if (c > max) {
+            max = c;
+        }
+
+        if (a > min && a < max) {
+            cout << "Ortaky san: " << a << endl;
+        }
+        if (b > min && b < max) {
+            cout << "Ortaky san: " << b << endl;
+        }
+        if (c > min && c < max) {
+            cout << "Ortaky san: " << c << endl;
+        }
+
 
         return 0;
     }
