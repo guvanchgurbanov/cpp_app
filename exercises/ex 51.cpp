@@ -1,4 +1,4 @@
-//
+4//
 // Created by Guga on 20-Oct-25.
 //    #include <iostream>
 
@@ -39,7 +39,6 @@ int main() {
     if (c > min && c < max) {
         cout << "Ortaky san: " << c << endl;
     }
-
 
     return 0;
 }
