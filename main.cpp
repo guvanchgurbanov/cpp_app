@@ -3,12 +3,10 @@
 using namespace std;
 
 int main() {
-    int x ;
-    cout << " Enter Number：" ;
-    cin >> x;
+    int san;
+       cout << "1-999 Enter number: ";
+       cin >> san;
 
-    if ( x > 0) {
-        cout << ""
+       if ( san <  
+        return 0;
     }
-    return 0;
-}
