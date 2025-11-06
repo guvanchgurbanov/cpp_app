@@ -3,10 +3,14 @@
 using namespace std;
 
 int main() {
-    int san;
-       cout << "1-999 Enter number: ";
-       cin >> san;
+    int suyjinbahsy;
+    cout << "suyjin klesinin bahasyny giriz:";
+    cin >> suyjinbahsy;
 
-       if ( san <  
-        return 0;
+    for (int i = 0.1; i <=1 ; i++) {
+        cout << i << " kg suyjinin bahasy: " ;
+        cout << suyjinbahsy * i  << "manat"<< endl;
     }
+    cout << endl;
+    return 0;
+}
