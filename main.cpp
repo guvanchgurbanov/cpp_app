@@ -7,7 +7,7 @@ int main() {
     cout << "suyjin klesinin bahasyny giriz:";
     cin >> suyjinbahsy;
 
-    for (int i = 0.1; i <=1 ; i++) {
+    for (double i = 0.1; i <=1 ; i+=0.1) {
         cout << i << " kg suyjinin bahasy: " ;
         cout << suyjinbahsy * i  << "manat"<< endl;
     }
