@@ -3,14 +3,20 @@
 using namespace std;
 
 int main() {
-    int suyjinbahsy;
-    cout << "suyjin klesinin bahasyny giriz:";
-    cin >> suyjinbahsy;
+    int a,b;
+    cout <<"A number enter: ";
+    cin >> a;
+    cout <<"B number enter: ";
+    cin >> b;
 
-    for (double i = 0.1; i <=1 ; i+=0.1) {
-        cout << i << " kg suyjinin bahasy: " ;
-        cout << suyjinbahsy * i  << "manat"<< endl;
+    int jem = 0;
+    cout << "Numbers: ";
+    for (int i = a; i <= b ; i++) {
+        cout <<i;
+        jem +=i;
     }
     cout << endl;
+    cout << "Total number: " << jem << endl;
+
     return 0;
 }
