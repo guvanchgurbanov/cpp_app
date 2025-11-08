@@ -3,20 +3,18 @@
 using namespace std;
 
 int main() {
-    int a,b;
-    cout <<"A number enter: ";
-    cin >> a;
-    cout <<"B number enter: ";
-    cin >> b;
+    int n;
+    cout <<"N number enter: ";
+    cin >> n;
 
-    int jem = 0;
-    cout << "Numbers: ";
-    for (int i = a; i <= b ; i++) {
+    int total = 0;
+    cout << "Numbers:";
+    for (int i = 1; i <= n ; i++) {
         cout <<i;
-        jem +=i;
+        total += i;
     }
     cout << endl;
-    cout << "Total number: " << jem << endl;
+    cout << "Total number: " << total << endl;
 
     return 0;
 }
