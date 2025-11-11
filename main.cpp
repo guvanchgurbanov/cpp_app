@@ -9,15 +9,16 @@ int main() {
     int n;
     cout <<"N number enter: ";
     cin >> n;
-
+    if (n > 0) {
     double result = 1;
     if ( n > 0) {
         for(int i = 1; i <= n; i++) {
             result *= a;
-            cout << i << " ";
+            cout << "A^" << i << " = " << result << endl;
         }
         cout << endl;
         cout << "Total number: " << result << endl;
+    }
     }
     return 0;
 }
