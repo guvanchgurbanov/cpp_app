@@ -11,15 +11,16 @@ int main() {
     cin >> n;
 
     if (n <= 0) {
-    double result = 1.0;
+        double result = 1.0;
         double current_power = 1.0;
         for(int i = 1; i <= n; ++i) {
-
             current_power *= a ;
             result += current_power;
 
-        cout << "Total number: " << result << endl;
+            cout << "Total number: " << result << endl;
+
+        }
     }
-    }
-    return 0;
+            return 0;
+
 }
