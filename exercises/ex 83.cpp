@@ -1,24 +1,20 @@
 //
-// Created by Guga on 26-Nov-25.
+// Created by Guga on 29-Nov-25.
 //#include <iostream>
 
 using namespace std;
 
 int main() {
-    double a;
-    cout << "A number enter:";
-    cin >>a;
     int n;
     cout <<"N number enter: ";
     cin >> n;
 
-    double result = 1;
+    double fact = 1;
 
-    for(int i = 1; i <= n; i++) {
-        result = result * i;
+    for (int i = 1; i <= n; i++) {
+        fact = fact * i;
     }
-
-    cout << result;
+    cout <<fact ;
 
     return 0;
 }
