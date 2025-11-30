@@ -1,4 +1,6 @@
-#include <iostream>
+//
+// Created by Guga on 30-Nov-25.
+//#include <iostream>
 #include <cmath>
 using namespace std;
 
