@@ -1,5 +1,6 @@
-#include <iostream>
-#include <cmath>
+//
+// Created by Guga on 01-Dec-25.
+//#include <iostream>
 using namespace std;
 
 int main() {
