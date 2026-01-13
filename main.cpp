@@ -1,18 +1,23 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main() {
-    int n,k;
-    cout <<"N number enter: ";
-    cin >> n;
+        int n;
+        cout << "N sany girizin : ";
+        cin >> n ;
 
-    double sum = 0;
+    bool yonekey = true;
 
-    for (int i = 1; i <= n; i++) {
-        sum = sum + i * i;
+    for (int i = 2; i <= n - 1; i++) {
+        if (n % i == 0) {
+            yonekey = false;
+            break;
+        }
     }
-    cout <<sum ;
 
+    if (yonekey)
+        cout << "TRUE";
+    else
+        cout << "FALSE";
     return 0;
 }
